@@ -6,7 +6,9 @@ import Card from '../components/Card'
 export default function HomeScreen() {
     
         return (
-            <View style={{flex:1}}>
+            <View style={{flex:1,
+                backgroundColor: "#232D3D"
+                }}>
                 <Header />
                 <ScrollView>
                 <Card />
