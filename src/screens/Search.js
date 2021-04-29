@@ -6,7 +6,6 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import MiniCard from '../components/Minicard';
 
 
-//https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&q=songs&type=video&key=AIzaSyDRE3x31hGdGFU5RRtMlWXc87TjgNULBeA
 
 
 const Search = ({navigation}) => {
