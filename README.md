@@ -4,6 +4,14 @@
 >Problem Statement:
 >Create a React Native Mobile App in which a user can search for a video using youtube API.
 
+### Platform
+>**Android**
+
+### Versions
+**React**:17.0.1
+**React-Native** :0.64.0
+**Node** :16.0.0
+
 ### Setup:
 #### 1. Clone repository:
 ```
