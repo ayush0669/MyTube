@@ -1,7 +1,8 @@
 # MyTube
 
 ## For TEESTA Challenge
-## >Create a React Native Mobile App in which a user can search for a video using youtube API.
+>Problem Statement:
+>Create a React Native Mobile App in which a user can search for a video using youtube API.
 
 ### Setup:
 #### 1. Clone repository:
