@@ -8,9 +8,9 @@
 >**Android**
 
 ### Versions
-**React**:17.0.1\n
-**React-Native** :0.64.0\n
-**Node** :16.0.0\n
+**React**:17.0.1  
+**React-Native** :0.64.0  
+**Node** :16.0.0  
 
 ### Setup:
 #### 1. Clone repository:
@@ -29,5 +29,5 @@ $ npm install
 $ npx react-native start
 $ npx react-native run-android
 ```
->Note: Run the two commands in two different terminals, the second command will make the application run in anroid emulator or mobile phone.
+>Note:  Run the two commands in two different terminals, the second command will make the application run in anroid emulator or mobile phone.
 
