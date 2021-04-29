@@ -9,4 +9,9 @@ git clone https://github.com/ayush0669/MyTube
 ```
 $ npm install
 ```
+#### 3.Build and Run the Code [Code is for Android]:
+```
+$ npx react-native start
+$ npx react-native run-android
+```
 
