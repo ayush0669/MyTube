@@ -21,8 +21,8 @@ const Card = ()=>{
                 <FontAwesome5 name="user" size={35} color={"black"} brands />
                 </View>
                 <View style={{marginLeft:10}}>
-                <Text style={{fontSize: 20 , fontWeight: "bold", width:Dimensions.get("screen").width-50}} ellipsizeMode="tail" numberOfLines={2}>Video Name asadasd asdas dasd asd asd</Text>
-                <Text>Channel Name</Text>
+                <Text style={{fontSize: 20 , fontWeight: "bold", width:Dimensions.get("screen").width-50}} ellipsizeMode="tail" numberOfLines={2}>Press the Search Icon</Text>
+                <Text>To search for your content.</Text>
                 </View>
             </View>
         </View>
