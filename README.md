@@ -1,4 +1,5 @@
 # MyTube
 
-# Setup:
+## Setup:
 1-Install dependencencies:
+> $ npm install 
