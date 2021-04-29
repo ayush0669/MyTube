@@ -1,4 +1,4 @@
 # MyTube
 
-#Setup:
+# Setup:
 1-Install dependencencies:
