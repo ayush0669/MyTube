@@ -25,7 +25,7 @@ $ npm install
 #### 3. Install an Android Emulator or connect an Android Mobile phone with the setup.
 
 #### 4.Build and Run the Code:
->The code has been made for Android only.
+>The code is made for Android only.
 ```
 $ npx react-native start
 $ npx react-native run-android
