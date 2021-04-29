@@ -1,7 +1,12 @@
 # MyTube
 
 ## Setup:
-1-Install dependencencies:
+#### 1. Clone repository:
 ```
-$ npm install 
+git clone https://github.com/ayush0669/MyTube
 ```
+#### 2. Install dependencies on your machine:
+```
+$ npm install
+```
+
