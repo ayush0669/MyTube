@@ -8,9 +8,9 @@
 >**Android**
 
 ### Versions
-**React**:17.0.1
-**React-Native** :0.64.0
-**Node** :16.0.0
+**React**:17.0.1\n
+**React-Native** :0.64.0\n
+**Node** :16.0.0\n
 
 ### Setup:
 #### 1. Clone repository:
