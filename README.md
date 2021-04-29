@@ -10,12 +10,13 @@
 ### Versions
 **React**:17.0.1  
 **React-Native** :0.64.0  
-**Node** :16.0.0  
+**Node** :16.0.0 
+**npm** :7.10.0
 
 ### Setup:
 #### 1. Clone repository:
 ```
-git clone https://github.com/ayush0669/MyTube
+$ git clone https://github.com/ayush0669/MyTube
 ```
 #### 2. Install dependencies on your machine:
 ```
