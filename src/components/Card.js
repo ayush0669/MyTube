@@ -10,7 +10,7 @@ const Card = ()=>{
             margin: 10
         }}>
             <Image  
-            source={{uri:"https://images.unsplash.com/photo-1507608158173-1dcec673a2e5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"}}
+            source={{uri:"https://images.unsplash.com/photo-1619544345442-6508f6c27679?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1Nnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"}}
             style={{
                 width:"100%",
                 height:200
@@ -18,11 +18,11 @@ const Card = ()=>{
             />
             <View style={{flexDirection: "row", margin:5}}>
                 <View style={{marginLeft:10}}>
-                <FontAwesome5 name="user" size={35} color={"black"} brands />
+                <FontAwesome5 name="user" size={35} color={"white"} brands />
                 </View>
                 <View style={{marginLeft:10}}>
-                <Text style={{fontSize: 20 , fontWeight: "bold", width:Dimensions.get("screen").width-50}} ellipsizeMode="tail" numberOfLines={2}>Press the Search Icon</Text>
-                <Text>To search for your content.</Text>
+                <Text style={{fontSize: 20 , fontWeight: "bold",color:"white", width:Dimensions.get("screen").width-50}} ellipsizeMode="tail" numberOfLines={2}>Press the Search Icon</Text>
+                <Text style={{color:"white"}}>To search for your content.</Text>
                 </View>
             </View>
         </View>

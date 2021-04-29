@@ -30,10 +30,10 @@ const Search = ({navigation}) => {
                 flexDirection: "row",
                 justifyContent: "space-around",
                 elevation: 5,
-                backgroundColor: "white"
+                backgroundColor: "#232D3D"
 
             }}>
-                <FontAwesome5 name="chevron-left" size={28} 
+                <FontAwesome5 name="chevron-left" size={28} color={"white"}
                     onPress={()=>navigation.goBack()}
                 />
                 <TextInput
@@ -41,7 +41,7 @@ const Search = ({navigation}) => {
                     value={value}
                     onChangeText={(text) => setValue(text)}
                 />
-                <FontAwesome5 name={'paper-plane'} size={28} onPress={() => fetchData()} />
+                <FontAwesome5 name={'paper-plane'} color={"white"} size={28} onPress={() => fetchData()} />
 
             </View>
             {loading ?<ActivityIndicator style={{marginTop:10}} size="large" color="grey" />:null}
@@ -50,6 +50,7 @@ const Search = ({navigation}) => {
                 data={miniCardData}
                 renderItem={({ item }) => {
                     return <MiniCard
+                        style={{backgroundColor:"#232D3D"}}
                         title={item.snippet.title}
                         videoId={item.id.videoId}
                         channelName={item.snippet.channelTitle}

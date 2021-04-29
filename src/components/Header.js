@@ -11,7 +11,7 @@ export default function Header() {
         return (
             <View style={{
                 height:40,flexDirection:"row",
-                backgroundColor:"white",
+                backgroundColor:"#232D3D",
                 justifyContent:"space-between",
                 elevation: 5
             }}>
@@ -19,17 +19,17 @@ export default function Header() {
                     <FontAwesome5Icon name="play-circle" size={28} color={"red"} ></FontAwesome5Icon>
                     <Text style={{
                         fontWeight: "bold",
-                        color: "black",
+                        color: "white",
                         fontSize:20,
                         marginLeft:5
                     }}>MyTube</Text>
 
                 </View>
                 <View style={{flexDirection:"row",justifyContent:"space-around",width:100}}>
-                <FontAwesome5 name="search" size={26} color={"black"} brands 
+                <FontAwesome5 name="search" size={26} color={"white"}  
                     onPress={()=>navigation.navigate("search")}
                 />
-                <FontAwesome5 name="user" size={26} color={"black"} brands />
+                <FontAwesome5 name="user" size={26} color={"white"}  />
 
                 </View>
 
