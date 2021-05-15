@@ -13,7 +13,7 @@ const Card = ()=>{
             source={{uri:"https://images.unsplash.com/photo-1619544345442-6508f6c27679?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1Nnx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"}}
             style={{
                 width:"100%",
-                height:200
+                height:200  
             }}
             />
             <View style={{flexDirection: "row", margin:5}}>
